@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .header {
+      @apply flex gap-10 items-center w-full h-1/5 justify-center bg-no-repeat bg-cover bg-[url(./assets/background.jpg)] ;
+    }
+    .bottom-block{
+      @apply flex flex-col gap-2 mx-10 h-1/2;
+    }
+  }
