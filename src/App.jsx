@@ -6,7 +6,7 @@ import InputPassword from "./components/InputPassword";
 export default function App() {
   return (
     <div className="font-primary-font flex gap-5 flex-col w-dvw h-dvh min-sm:gap-20 md-sm:flex-row">
-      <div className="header min-sm:h-[10%] min-sm:justify-start min-sm:pl-10 md-sm:h-full md-sm:w-[45%] md-sm:flex-col md-sm:py-20 md-sm:items-start md-sm:justify-between md-sm:pl-20">
+      <div className="header min-sm:h-[10%] min-sm:justify-start min-sm:pl-10 md-sm:w-[45%] md-sm:flex-col md-sm:py-20 md-sm:items-start md-sm:justify-between md-sm:pl-20 md-sm:bg-cover md-sm:h-dvh">
         <div className="w-16 h-12 md-sm:flex md-sm:gap-5 md-sm:size-auto">
           <div className="w-16 h-12 hidden md-sm:block">
             <img
@@ -27,7 +27,8 @@ export default function App() {
           </p>
         </div>
       </div>
-      <div className="bottom-block md-sm:self-center md-sm:ml-0 md-sm: md-sm:max-w-xl">
+      <div className="bottom-block md-sm:self-center md-sm:ml-0 md-sm:max-w-xl">
+
         <div className="flex flex-col gap-2 *:text-xl mb-24">
           <h2 className="font-bold text-[#040308] min-sm:text-3xl md-sm:text-4xl">
             Create account
